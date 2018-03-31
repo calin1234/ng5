@@ -1,0 +1,15 @@
+<p>
+  About works! {{routId}}
+  <br/>
+  And here is a butten which will send you Home!!!
+  <br/>
+  <input type="submit" (click)="sendMeHome()">
+  <br/>
+</p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{goal}}
+  </li>
+</ul>
+

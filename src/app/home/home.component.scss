@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+.col {
+  padding: .4em 1.3em;
+}
+
+.home-main-div-dark {
+  background-color: cornflowerblue;
+}
+
+.home-main-div-light {
+  background-color: cornflowerblue;
+}
+
+.life-container{
+  background-color: darkcyan;
+}
+
+.span-input-text{
+  color: white;
+  margin-top: 50px;
+  font-size:10px;
+  font-style: italic;
+}
+
